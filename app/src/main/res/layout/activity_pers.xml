@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ParsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b4">
+
+        <ImageView
+            android:id="@+id/tard"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="176dp"
+            android:layout_marginBottom="540dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/durkhaim"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/tard2" />
+
+        <ImageView
+            android:id="@+id/spencer"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/design_default_color_surface"
+            android:backgroundTintMode="add"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toTopOf="@+id/mid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/kont"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chel1" />
+
+        <ImageView
+            android:id="@+id/veber"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:backgroundTintMode="add"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toStartOf="@+id/marks"
+            app:layout_constraintTop_toBottomOf="@+id/kont"
+            app:srcCompat="@drawable/v2" />
+
+        <ImageView
+            android:id="@+id/marks"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/design_default_color_surface"
+            android:backgroundTintMode="add"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/d2" />
+
+        <ImageView
+            android:id="@+id/saterlend"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="80dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/durkhaim"
+            app:layout_constraintVertical_bias="0.485"
+            app:srcCompat="@drawable/chel6" />
+
+        <ImageView
+            android:id="@+id/durkhaim"
+            android:layout_width="106dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="12dp"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036"
+            app:srcCompat="@drawable/d2" />
+
+        <ImageView
+            android:id="@+id/durkhaimR"
+            android:layout_width="106dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="12dp"
+            android:onClick="handleFirstPersonEvent"
+            android:scaleType="centerInside"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036"
+            app:srcCompat="@drawable/chel1" />
+
+        <ImageView
+            android:id="@+id/kont"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="16dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034"
+            app:srcCompat="@drawable/k2" />
+
+        <ImageView
+            android:id="@+id/kontR"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034"
+            app:srcCompat="@drawable/chel1" />
+
+        <ImageView
+            android:id="@+id/pareto"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="38dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toStartOf="@+id/kont"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/durkhaim"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chel7" />
+
+        <ImageView
+            android:id="@+id/merton"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="380dp"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:backgroundTintMode="add"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/saterlend"
+            app:layout_constraintTop_toBottomOf="@+id/kont"
+            app:layout_constraintVertical_bias="0.96"
+            app:srcCompat="@drawable/chel5" />
+
+        <ImageView
+            android:id="@+id/mid"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/sorokin"
+            app:layout_constraintTop_toBottomOf="@+id/marks"
+            app:layout_constraintVertical_bias="0.158"
+            app:srcCompat="@drawable/chel2" />
+
+        <ImageView
+            android:id="@+id/sorokin"
+            android:layout_width="113dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="320dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toTopOf="@+id/merton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toEndOf="@+id/saterlend"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pit2" />
+
+        <ImageView
+            android:id="@+id/tennis"
+            android:layout_width="118dp"
+            android:layout_height="128dp"
+            android:layout_marginEnd="9dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/veber"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19"
+            app:srcCompat="@drawable/chel3" />
+
+        <TextView
+            android:id="@+id/textinside"
+            android:layout_width="351dp"
+            android:layout_height="364dp"
+            android:layout_marginHorizontal="45dp"
+            android:layout_marginBottom="484dp"
+            android:background="@color/purple_600"
+            android:paddingHorizontal="8dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/string_durkhaim"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pareto"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textinside3"
+            android:layout_width="358dp"
+            android:layout_height="350dp"
+            android:background="@color/purple_600"
+            android:paddingHorizontal="8dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/string_marks"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.711" />
+
+        <TextView
+            android:id="@+id/textinside4"
+            android:layout_width="327dp"
+            android:layout_height="206dp"
+            android:background="@color/purple_600"
+            android:paddingHorizontal="8dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/string_durkhaim"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.636"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/merton"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textinside2"
+            android:layout_width="382dp"
+            android:layout_height="297dp"
+            android:background="@color/purple_600"
+            android:paddingHorizontal="8dp"
+            android:text="@string/string_marks"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/textinside4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.432" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
