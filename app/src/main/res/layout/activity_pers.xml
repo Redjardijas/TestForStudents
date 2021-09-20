@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="outsideOverlay"
+    android:verticalScrollbarPosition="right"
+    tools:context=".ParsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b4">
+
+        первый ряд
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.02">
+
+            <ImageView
+                android:id="@+id/durkhaim"
+                android:layout_width="106dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                app:srcCompat="@drawable/d2" />
+
+            <ImageView
+                android:id="@+id/kont"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/k2" />
+
+            <Switch
+                android:id="@+id/switchFaces"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        второй ряд
+
+        <LinearLayout
+            android:id="@+id/l2line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25">
+
+            <ImageView
+                android:id="@+id/mert"
+                android:layout_width="118dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/merton2" />
+
+            <ImageView
+                android:id="@+id/veber"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTintMode="add"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/v2" />
+
+        </LinearLayout>
+
+        третий ряд
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <ImageView
+                android:id="@+id/sorokin"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/pit2" />
+
+            <ImageView
+                android:id="@+id/spencer"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTintMode="add"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chel1" />
+        </LinearLayout>
+
+        четвертый ряд
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75">
+
+            <ImageView
+                android:id="@+id/merton"
+                android:layout_width="106dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                app:srcCompat="@drawable/d2" />
+
+            <ImageView
+                android:id="@+id/mid"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chel2" />
+
+        </LinearLayout>
+
+        пятый ряд
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75">
+
+            <ImageView
+                android:id="@+id/pareto"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chel7" />
+
+            <ImageView
+                android:id="@+id/marks"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTintMode="add"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/d2" />
+        </LinearLayout>
+
+        шестой ряд
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95">
+
+            <ImageView
+                android:id="@+id/tard"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/tard2" />
+
+            <ImageView
+                android:id="@+id/saterlend"
+                android:layout_width="113dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chel6" />
+        </LinearLayout>
+
+        седьмой ряд
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75">
+
+
+        </LinearLayout>
+
+        текст1
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+
+            <TextView
+                android:id="@+id/textinside"
+                android:layout_width="351dp"
+                android:layout_height="364dp"
+                android:layout_marginBottom="600dp"
+                android:background="@color/purple_600"
+                android:text="@string/string_durkhaim"
+                android:textAlignment="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        текст2
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1"
+            >
+
+            <TextView
+                android:id="@+id/textinside3"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:background="@color/purple_600"
+                android:paddingHorizontal="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/string_marks"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/veber"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.711" />
+        </LinearLayout>
+
+        текст3
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+
+            <TextView
+                android:id="@+id/textinside4"
+                android:layout_width="327dp"
+                android:layout_height="206dp"
+                android:background="@color/purple_600"
+                android:paddingHorizontal="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/string_durkhaim"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.636"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        текст4
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+
+            <TextView
+                android:id="@+id/textinside2"
+                android:layout_width="95dp"
+                android:layout_height="297dp"
+                android:background="@color/purple_600"
+                android:paddingHorizontal="8dp"
+                android:text="@string/string_marks"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/textinside4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HistActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b3">
+
+        <Button
+            android:id="@+id/bmid3"
+            android:layout_width="114dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Персонаж10"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bveb2" />
+
+        <Button
+            android:id="@+id/brann"
+            android:layout_width="261dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginBottom="144dp"
+            android:backgroundTint="#daeee8"
+            android:text="Ранний классический период"
+            android:textColor="#465A52"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/bmarx"
+            android:layout_width="302dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="184dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Карл Маркс"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/brann"
+            app:layout_constraintEnd_toStartOf="@+id/divider6"
+            app:layout_constraintStart_toEndOf="@+id/divider3" />
+
+        <Button
+            android:id="@+id/bkont"
+            android:layout_width="275dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="188dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Огюст Конт"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider6"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.643" />
+
+        <Button
+            android:id="@+id/bspencer"
+            android:layout_width="382dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginBottom="352dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Герберт Спенсер"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider7"
+            app:layout_constraintHorizontal_bias="0.004"
+            app:layout_constraintStart_toEndOf="@+id/divider3" />
+
+        <Button
+            android:id="@+id/bdurk"
+            android:layout_width="271dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="448dp"
+            android:backgroundTint="#A7F1D3"
+            android:text="Эмиль Дюркгейм"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider7"
+            app:layout_constraintHorizontal_bias="0.146"
+            app:layout_constraintStart_toEndOf="@+id/divider5" />
+
+        <Button
+            android:id="@+id/bdurk2"
+            android:layout_width="308dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="180dp"
+            android:backgroundTint="#B7FADF"
+            android:text="Э.Сатерленд"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/bpozdn"
+            app:layout_constraintEnd_toStartOf="@+id/divider8"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/bmarx" />
+
+        <Button
+            android:id="@+id/bveb"
+            android:layout_width="258dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="496dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Макс Вебер"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider7"
+            app:layout_constraintHorizontal_bias="0.947"
+            app:layout_constraintStart_toEndOf="@+id/divider5" />
+
+        <Button
+            android:id="@+id/bveb2"
+            android:layout_width="114dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Персонаж2"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/bparsons"
+            android:layout_width="346dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Толкотт Парсонс"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/divider8"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/divider6"
+            tools:layout_editor_absoluteY="1037dp" />
+
+        <Button
+            android:id="@+id/bparsons2"
+            android:layout_width="114dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Персонаж3"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bmid3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/bmerton"
+            android:layout_width="428dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="352dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Роберт Мертон"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/divider6" />
+
+        <Button
+            android:id="@+id/bsorokin"
+            android:layout_width="347dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Питирим Сорокин"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/divider8"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintStart_toEndOf="@+id/divider5"
+            tools:layout_editor_absoluteY="989dp" />
+
+        <Button
+            android:id="@+id/bburd"
+            android:layout_width="114dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Г.Бурдье"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btard"
+            android:layout_width="274dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="600dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Тард"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider7"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toEndOf="@+id/divider3" />
+
+        <Button
+            android:id="@+id/btonnis"
+            android:layout_width="365dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Тоннис"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/divider7"
+            app:layout_constraintHorizontal_bias="0.343"
+            app:layout_constraintStart_toEndOf="@+id/divider5"
+            tools:layout_editor_absoluteY="709dp" />
+
+        <Button
+            android:id="@+id/bmid"
+            android:layout_width="313dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="304dp"
+            android:backgroundTint="#A4D6C2"
+            android:text="Дж.Мид"
+            android:textColor="#43657b"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider7"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toEndOf="@+id/divider5" />
+
+        <Button
+            android:id="@+id/bpozdn"
+            android:layout_width="182dp"
+            android:layout_height="76dp"
+            android:layout_marginBottom="144dp"
+            android:backgroundTint="#daeee8"
+            android:text="Поздний классический период"
+            android:textColor="#43657b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/brann" />
+
+        <Button
+            android:id="@+id/b20"
+            android:layout_width="302dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="144dp"
+            android:backgroundTint="#daeee8"
+            android:text="Социология ХХ века"
+            android:textColor="#43657b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bpozdn" />
+
+        <Button
+            android:id="@+id/b21"
+            android:layout_width="262dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="148dp"
+            android:backgroundTint="#daeee8"
+            android:text="Социология ХХI века"
+            android:textColor="#43657b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider9"
+            app:layout_constraintStart_toEndOf="@+id/b20" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            tools:layout_editor_absoluteY="538dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="1427dp"
+            android:layout_height="141dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/time" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:layout_marginTop="461dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.641"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:layout_marginTop="461dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:layout_marginTop="461dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.953"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.796"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="10dp"
+            android:layout_height="1200dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.028"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</HorizontalScrollView>

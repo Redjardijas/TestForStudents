@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">soc</string>
+    <string name="action_settings">Settings</string>
+    <string name="list1">1830 – 1880 годы</string>
+    <string name="list2">1880 – 1920 годы</string>
+    <string name="list3">1920 – 1990 годы</string>
+    <string name="list4">1990 – наст. время</string>
+    <string name="kont">1798 –  1857 французский социолог</string>
+    <string name="marx">1818 – 1883 немецкий философ, социальный мыслитель, экономист</string>
+    <string name="spencer">1820 – 1903 английский философ и социолог</string>
+    <string name="veber">1990 – наст. время</string>
+    <string name="durk">1990 – наст. время</string>
+    <string name="tolkott">1990 – наст. время</string>
+    <string name="tonnis">1990 – наст. время</string>
+    <string name="merton">1990 – наст. время</string>
+    <string name="sorokin">1990 – наст. время</string>
+    <string name="mid">1990 – на</string>
+    <string name="parsons">1990 – на</string>
+    <string name="bghjgjfkljgd1_override_protected_void_oncreate_bundle_savedinstancestate_super_oncreate_savedinstancestate_setcontentview_r_layout_person_tname1_textview_findviewbyid_r_id_text1_tname2_textview_findviewbyid_r_id_text2_imag1_imageview_findviewbyid_r_id_imag1_imag2_imageview_findviewbyid_r_id_imag2_btname1_button_findviewbyid_r_id_btname1_btname2_button_findviewbyid_r_id_btname2_btname1_setonclicklistener_this_btname2_setonclicklistener_this_override_public_void_onclick_view_v_switch_view_getid_case_r_id_imag1_tname1_setvisibility_view_visible_break_case_r_id_imag2_tname2_setvisibility_view_visible_break_case_r_id_btname1_tname1_setvisibility_view_visible_break_case_r_id_btname2_tname2_setvisibility_view_visible_break_default_break">bGHJGJFKLJGD1 @Override protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.person); tName1 = (TextView) findViewById(R.id.text1); tName2 = (TextView) findViewById(R.id.text2); imag1 = (ImageView) findViewById(R.id.imag1); imag2 = (ImageView) findViewById(R.id.imag2); btName1 = (Button) findViewById(R.id.btname1); btName2 = (Button) findViewById(R.id.btname2); btName1.setOnClickListener(this); btName2.setOnClickListener(this); @Override public void onClick(View v) { switch(view.getId){ case R.id.imag1: tName1.setVisibility(View.VISIBLE); break; case R.id.imag2: tName2.setVisibility(View.VISIBLE); break; case R.id.btname1: tName1.setVisibility(View.VISIBLE); break; case R.id.btname2: tName2.setVisibility(View.VISIBLE); break; default: // break; } }</string>
+    <string name="string_sorokin">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_spencer">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_mid">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_tard">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_merton">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_veber">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_burd">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_marks">Здесь информация о великом, а может и не великом социологе</string>
+    <string name="string_pareto">Э́двин Са́терленд (англ. Edwin Hardin Sutherland; 13 августа 1883, Гиббон, Небраска — 11 октября 1950, Блумингтон, Индиана) — американский социолог. Признан одним из крупнейших американских криминологов XX века. Иногда его фамилия на русский передаётся как Сазерленд[1].</string>
+    <string name="string_durkhaim">Эмиль Дюркгейм (1858-1917) — французский социолог.
+        Разделяя частично точку зрения позитивизма, он выступал против биологизации социологии Контом.
+        Основное произведение Дюркгейма — «Метод социологии» (1898). В отличие от марксизма, его теория большее значение придает субъективной составляющей социальной деятельности.
+Структура социологии, по мнению Дюркгейма, включает в себя социальную морфологию, социальную физиологию и общую социологию.
+        ́</string>
+    <string name="string_kont">Огюст Конт (1798-1857) разработал трехстадийную модель развития общества (религиозная, метафизическая и позитивная стадии) и считал, что современное ему общество находится на грани перехода к третьей стадии. Для реализации такого перехода обществу необходимо новое знание о самом себе — не критически философское, а позитивно-научное.
+        Он назвал такую науку «социологией» — аналогично биологии и названиям других естественно-научных дисциплин.</string>
+
+</resources>
